@@ -1,0 +1,67 @@
+body {
+    background-image: url("./bg-pattern-top.svg");
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%)
+}
+
+hr {
+    border-top: 1px solid hsl(0, 0%, 59%);
+
+}
+
+.small {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+
+}
+
+.stats {
+    padding: 40px;
+    display: grid;
+    grid-template-rows: repeat(2, 50%);
+    grid-template-columns: repeat(3, 33.3%);
+    align-content: center;
+}
+
+.detail {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: hsl(227, 10%, 46%);
+    order: 1;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card {
+    background-color: white;
+    border-radius: 15px;
+    margin: 150px auto;
+    width: 350px;
+    flex-direction: column;
+}
+
+#bg-card {
+    border-radius: 15px 15px 0 0;
+}
+
+#picture {
+    border-radius: 50%;
+    border: 6px solid white;
+    position: relative;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
